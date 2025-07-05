@@ -10,7 +10,7 @@ export class DashboardPage {
        
     }
 
-    async visitarPaginaLogin() {
+    async visitarPaginaPrincipal() {
         await this.page.goto('http://localhost:3000/dashboard');
         await this.page.waitForLoadState('networkidle');
     }
